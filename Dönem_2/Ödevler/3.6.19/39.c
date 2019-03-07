@@ -11,4 +11,5 @@ main()
             printf("%d ", j);
         printf("\n");
     }
+    getch();
 }
