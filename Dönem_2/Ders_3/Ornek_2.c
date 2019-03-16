@@ -2,7 +2,7 @@
 
 main()
 {
-    int dizi[5] = {4, 12, 9, 152, 124}, min = dizi[0], max = dizi[0], sayi;
+    int dizi[5] = {5, 10, 2, 3, 2}, min = dizi[0], max = dizi[0], sayi;
     
     printf("Sayi giriniz: ");
     scanf("%d", &sayi);

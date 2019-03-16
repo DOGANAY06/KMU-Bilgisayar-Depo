@@ -15,5 +15,5 @@ main()
         printf("%d - %4d - %4d\n", dizi[i], min, max);
     }
 
-    printf("Minimun =%d\nMaksimum = %d", min, max);
+    printf("Minimun = %d\nMaksimum = %d", min, max);
 }
