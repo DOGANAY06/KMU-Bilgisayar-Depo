@@ -11,5 +11,5 @@ main()
 
     printf("\n%c", deger[0]);
     printf("\n%c", deger[2]);
-    printf("\n%s", &deger[2]);
+    printf("\n%s", deger[2]);
 }

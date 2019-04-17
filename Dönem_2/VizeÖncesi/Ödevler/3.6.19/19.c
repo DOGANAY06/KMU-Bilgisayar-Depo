@@ -13,9 +13,6 @@ main()
 
     printf("Basamak sayisini giriniz: ");
     scanf("%d", &num);
-    // 5   6   7
-    // - + - + -
-    // 3   4   5
     
     for(int tCounter = 0; tCounter < 6; tCounter++)
     {

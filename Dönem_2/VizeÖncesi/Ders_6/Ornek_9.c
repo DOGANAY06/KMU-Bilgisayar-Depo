@@ -16,7 +16,7 @@ main()
     
     printf("log(%d) = %f\n", y, log(y));
     
-    printf("floor(%f) = %f\n", x, log(x));
+    printf("floor(%f) = %f\n", x, floor(x));
     
     printf("ceil(%f) = %f\n", x, ceil(x));
     
