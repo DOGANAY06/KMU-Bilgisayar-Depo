@@ -1,9 +1,0 @@
-1- Adım sayısını kullanıcıdan alarak fibonacci serisini ekranda gösterecek programı yazın
-
-2- Klavyeden girilen iki sayıyı topladıktan sonra "Devam etmek ister misiniz?" diye sorduktan sonra "e" girildiği taktirde devam eden programı yazın
-
-3- While ile girilen cümledeki kelime ve karakter sayısını bulan programı yazınız
-
-4- Klavyeden girilen iki adet tamsayının OBEB OKEK'ini bulan programı yazın
-
-5- Klavyeden girilen harf sesli ise sesli bir harf girildiğini belirten, aksi taktirde sessiz olduğunu belirten programı yazın
