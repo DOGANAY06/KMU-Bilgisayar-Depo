@@ -1,32 +1,10 @@
-// #include <stdio.h>
-
-// main()
-// {
-//     int sayi;
-//     printf("Basamak sayisini giriniz: ");
-//     scanf("%d", &sayi);
-//     for(int i = 1; i <= sayi; i++)
-//     {
-//         for(int j = 1; j <= i; j++)
-//             if(i == j)
-//                 printf("*");
-//             else
-//                 printf(" ");
-//         printf("\n");
-//     }
-// }
-
 #include <stdio.h>
 
 main()
 {
-    int sayi;
-    printf("Basamak sayisini giriniz: ");
-    scanf("%d", &sayi);
-    for(int i = 1; i <= sayi; i++)
-    {
-        for(int j = 1; j <= i; j++)
-            printf(" ");
-        printf("*\n");
-    }
+    int i;
+    int dizi[5] = {20, 30, 50, 10, 5};
+
+    for(i = 0; i < 6; i++)
+        printf("\n%d", i);
 }

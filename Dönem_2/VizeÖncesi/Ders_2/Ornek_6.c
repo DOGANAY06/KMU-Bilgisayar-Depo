@@ -1,15 +1,14 @@
 #include <stdio.h>
+#define mak 5
+#define yaz printf
 
 main()
 {
-    char deger[10];
-    deger[0] = 'A';
-    deger[1] = 'R';
-    deger[2] = 'K';
-    deger[3] = 'A';
-    deger[4] = 0;
+    int i;
+    int dizi[mak] = {20, 30, 50, 10, 5};
 
-    printf("\n%c", deger[0]);
-    printf("\n%c", deger[2]);
-    printf("\n%s", deger[2]);
+    for(i = 0; i < mak; i++)
+        yaz("\n%d", i);
+        // printf("\n%d", i);
+    
 }

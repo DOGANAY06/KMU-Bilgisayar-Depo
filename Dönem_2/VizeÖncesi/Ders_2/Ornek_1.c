@@ -1,20 +1,14 @@
 #include <stdio.h>
-#include <windows.h>   // WinApi header
 
-int main()
+main()
 {
-  HANDLE  hConsole;
-    int k;
-
-  hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-
-  // you can loop k higher to see more color choices
-  for(k = 1; k < 255; k++)
-  {
-    SetConsoleTextAttribute(hConsole, k);
-    printf("%3d  %s\n", k, "I want to be nice today!");
-  }
-
-  getchar();  // wait
-  return 0;
+    int sayi;
+    printf("Basamak sayisini giriniz: ");
+    scanf("%d", &sayi);
+    for(int i = 1; i <= sayi; i++)
+    {
+        for(int j = 0; j < i; j++)
+            printf("%d ", i);
+        printf("\n");
+    }
 }

@@ -2,9 +2,14 @@
 
 main()
 {
-    int i;
-    int dizi[5] = {20, 30, 50, 10, 5};
+    char deger[10];
+    deger[0] = 'A';
+    deger[1] = 'R';
+    deger[2] = 'K';
+    deger[3] = 'A';
+    deger[4] = 0;
 
-    for(i = 0; i < 6; i++)
-        printf("\n%d", i);
+    printf("\n%c", deger[0]);
+    printf("\n%c", deger[2]);
+    printf("\n%s", deger[2]);
 }
