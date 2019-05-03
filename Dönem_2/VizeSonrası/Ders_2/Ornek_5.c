@@ -2,7 +2,7 @@
 
 int Deneme(int *deger);
 
-main()
+void main()
 {
     int sayi;
     int *psayi;

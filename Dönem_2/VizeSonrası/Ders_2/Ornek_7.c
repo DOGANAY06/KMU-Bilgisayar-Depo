@@ -2,7 +2,7 @@
 
 void Kalan(int *x, int *y, int *kalan);
 
-main()
+void main()
 {
     int x = 70, y = 30, kalan = 0;
 

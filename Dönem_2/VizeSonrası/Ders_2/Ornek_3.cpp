@@ -11,7 +11,7 @@ float Kare(float sayi)
     return sayi * sayi;
 }
 
-main()
+void main()
 {
     int sayi1 = 5;
     float sayi2 = 1.5;

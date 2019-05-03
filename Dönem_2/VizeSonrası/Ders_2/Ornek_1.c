@@ -30,7 +30,7 @@ void sehir_bul(int sayi)
         printf("Plaka bilinmiyor\n");
 }
 
-main()
+void main()
 {
     char plaka;
 

@@ -3,7 +3,7 @@
 
 int Mutlak(int sayi);
 
-main()
+void main()
 {
     int sayi;
 

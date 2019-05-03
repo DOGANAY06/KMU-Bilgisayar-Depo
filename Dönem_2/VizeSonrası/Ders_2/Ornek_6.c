@@ -2,7 +2,7 @@
 
 void YerDegistir(int *x, int *y);
 
-main()
+void main()
 {
     int x = 10, y = 30;
 
